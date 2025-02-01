@@ -3,7 +3,7 @@ import os
 
 os.system('') # Enables ANSI escape sequences on Windows.
 
-address = input(f'\x1b[1;32m{os.getlogin()}@GmailGen$ \x1b[1;34mEnter Email: \x1b[0m')
+address = input(f'\x1b[1;32m{os.getlogin()}@GmailGen$ \x1b[1;34mEnter Email:clankeyprime@gmail.com \x1b[0m')
 address = address.split('@')
 if len(address) == 1:
     input('\x1b[1;31mError: \x1b[1;33mInvalid Email! Press ENTER to continue.\x1b[0m')
